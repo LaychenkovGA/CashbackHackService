@@ -28,4 +28,5 @@ public class CashbackHackServiceTest {
         int actual = service.remain(amount);
         org.testng.Assert.assertEquals(actual, expected);
     }
+
 }
